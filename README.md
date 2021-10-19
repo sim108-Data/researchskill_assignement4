@@ -14,6 +14,10 @@ An in-depth paragraph about your project and overview of use.
 To be able to run the code a file describing the requirements can be find below:
 * requirements.txt: In this file you will find all the libraries you need to run the algorithms we are providing in the folder Main.
 
+```
+pip install -r requirements.txt
+```
+
 ### Installing
 
 * To download the program you just need to run the file requirements.txt in your console prompt.
