@@ -2,7 +2,7 @@
 ## Assignement 4 
 
 This code helps to model the traffic congestion for the city of in Montréal for the period of September 2017 to October 2017.
-Warning due to the big amonth of data, the code take 20 minute to run in order to make the graph.
+Warning : Due to the big amonth of data, the code take 20 minute to run in order to make both graphs.
 
 ## Description
 
