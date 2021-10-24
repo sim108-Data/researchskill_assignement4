@@ -1,7 +1,7 @@
 # Introduction to research skills (for GC)
 ## Assignement 4 
 
-This code helps to model the traffic congestion for during the week and during the weekend.
+This code helps to model the traffic congestion for the city of in Montréal for the period of September 2017 to October 2017.
 
 ## Description
 
@@ -13,6 +13,10 @@ An in-depth paragraph about your project and overview of use.
 
 To be able to run the code a file describing the requirements can be find below:
 * requirements.txt: In this file you will find all the libraries you need to run the algorithms we are providing in the folder Main.
+
+```
+pip install -r requirements.txt
+```
 
 ### Installing
 
