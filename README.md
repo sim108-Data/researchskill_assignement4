@@ -1,7 +1,7 @@
 # Introduction to research skills (for GC)
 ## Assignement 4 
 
-This code helps to model the traffic congestion for during the week and during the weekend.
+This code helps to model the traffic congestion for the city of in Montréal for the period of September 2017 to October 2017.
 
 ## Description
 
