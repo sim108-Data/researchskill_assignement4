@@ -30,13 +30,12 @@ To install the requirements you will need to have pip"
 
 Then you can use the line of code:
 
-Windows :
 
 ```
 pip install -r requirements.txt
 ```
 
-Mac : 
+or
 
 ```
 pip3 install -r requirements.txt
