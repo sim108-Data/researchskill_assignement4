@@ -15,10 +15,20 @@ Warning : Due to the big amonth of data, the code take 20 minute to run in order
 
 ## Getting Started
 
+First, you will need to download " git ". Then you can clone the repository in your computer. 
+
 ### Dependencies
 
 To be able to run the code a file describing the requirements can be find below:
+
 * requirements.txt: In this file you will find all the libraries you need to run the algorithms we are providing in the folder Main.
+
+To install the requirements you will need to first download "pip" 
+
+* Windows : https://phoenixnap.com/kb/install-pip-windows#:~:text=%20Installing%20PIP%20On%20Windows%20%201%20Step,and%20you%20should%20see%20the%20location...%20More%20
+* Mac : https://phoenixnap.com/kb/install-pip-mac#:~:text=Install%20Pip%20on%20macOS%20via%20easy_install%20The%20easy_install,recommended%20method%20to%20use%20is%20get-pip.py%20or%20ensurepip.
+
+Then you can use the line of code:
 
 ```
 pip install -r requirements.txt
