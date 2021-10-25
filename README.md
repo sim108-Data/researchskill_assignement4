@@ -17,39 +17,34 @@ Warning : Due to the big amonth of data, the code take 20 minute to run in order
 
 First, you will need to have " git " install in your computer to be able to clone the repository in your computer. You will also need to have python install. If this is not the case you can download it from here : https://www.python.org/downloads/ 
 
+You can also download "anaconda" to download further dependencies  
+
 ### Dependencies 
 
 To be able to run the code a file describing the requirements can be find below:
 
-* requirements.txt: In this file you will find all the libraries you need to run the algorithms we are providing in the folder Main.
-
-To install the requirements you will need to have pip" 
-
-* Windows : https://phoenixnap.com/kb/install-pip-windows#:~:text=%20Installing%20PIP%20On%20Windows%20%201%20Step,and%20you%20should%20see%20the%20location...%20More%20
-* Mac : https://phoenixnap.com/kb/install-pip-mac#:~:text=Install%20Pip%20on%20macOS%20via%20easy_install%20The%20easy_install,recommended%20method%20to%20use%20is%20get-pip.py%20or%20ensurepip.
-
-Then you can use the line of code:
-
-
+* pandas : 
 ```
-pip install -r requirements.txt
+conda install -c anaconda pandas
 ```
 
-or
+* numpy :
+```
+conda install numpy
+```
+* matplotlib :
 
 ```
-pip3 install -r requirements.txt
+conda install matplotlib
 ```
-
 ### Installing
 
-* To download the program you just need to run the file requirements.txt in your console prompt.
+* To download the program you just need to download all the dependencies in the file requirements.txt.
 
 ### Executing program
 
 * To execute the program you need to follow the step describe below:
-* clone the repository and run the requirements.txt from your console in the repository
-* Then run the file assignement4.py as follow:
+* clone the repository and run the file assignement4.py as follow:
 ```
 python assignement4.py
 ```
