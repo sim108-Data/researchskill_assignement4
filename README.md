@@ -16,7 +16,7 @@ Warning : Due to the big amonth of data, the code take 5 minutes to run in order
 
 First, you will need to have " git " install in your computer to be able to clone the repository in your computer. You will also need to have python install. If this is not the case you can download it from here : https://www.python.org/downloads/ 
 
-You should also download "anaconda" to get further needed librairies. 
+You should also download "anaconda" to get further needed librairies. https://docs.anaconda.com/anaconda/install/index.html
 
 ### Dependencies and Installing
 
