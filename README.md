@@ -2,13 +2,11 @@
 ## Assignement 4 
 
 This repository contains the following files :
+* assignement4.py : the python file containing the code 
+* export_trajets.csv : the csv containing the data 
+* requirements.txt : the text file containing all the library used in the code
+* week.jpg and weekend.jpg : which represents the two graphs that you should get after compiling the code
 
-\begin{enumerate}
- \item assignement4.py : the python file containing the code 
- \item export_trajets.csv : the csv containing the data 
- \item requirements.txt : the text file containing all the library used in the code
- \item week.jpg and weekend.jpg : which represents the two graphs that you should get after compiling the code
-\end{enumerate}
 
 ## Description
 
