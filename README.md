@@ -16,11 +16,11 @@ Warning : Due to the big amonth of data, the code take 5 minutes to run in order
 
 First, you will need to have " git " install in your computer to be able to clone the repository in your computer. You will also need to have python install. If this is not the case you can download it from here : https://www.python.org/downloads/ 
 
-You can also download "anaconda" to download further librairies. 
+You should also download "anaconda" to get further needed librairies. 
 
-### Dependencies 
+### Dependencies and Installing
 
-To be able to run the code you will need to have some specific librairies that can be download on putting those code line on the terminal after downloading anaconda. 
+To be able to run the code you will need to have some specific librairies that can be download on putting those codelines on the terminal after downloading anaconda. 
 If you are more familiar with pip you can also use "pip install".
 
 * pandas : 
@@ -33,14 +33,17 @@ conda install -c anaconda pandas
 ```
 conda install matplotlib
 ```
-### Installing
-
-* To download the program you just need to download all the dependencies in the file requirements.txt.
 
 ### Executing program
 
-* To execute the program you need to follow the step describe below:
-* clone the repository and run the file assignement4.py as follow:
+To execute the program you need to follow the step describe below:
+* clone the repository 
+* load the librairy
+* enter in the repository with this command (Windows) or equivalent codeline for Mac and Linux
+```
+cd researchskill_assignement4
+```
+* and then run the file assignement4.py as follow:
 ```
 python assignement4.py
 ```
