@@ -46,14 +46,14 @@ conda install matplotlib
 
 ### Executing program
 
-To execute the program you need to follow the step described below:
-* clone the repository 
+To execute the program you need to follow the steps described below:
+* Clone the repository 
 * Get the Python libraries
-* enter in the repository with this command (Windows) or equivalent code line for Mac and Linux
+* Enter in the repository with this command (Windows) or equivalent code line for Mac and Linux
 ```
 cd researchskill_assignement4
 ```
-* and then run the file assignement4.py as follow:
+* Run the file assignement4.py as follow:
 ```
 python assignement4.py
 ```
