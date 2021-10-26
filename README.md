@@ -21,13 +21,15 @@ Warning: Due to the big amount of data, the code takes 5-7 minutes to run to mak
 
 ## Getting Started
 
-First, you will need to have " git " install on your computer to be able to clone the repository on your computer. You will also need to have python installed. If this is not the case you can download it from here: https://www.python.org/downloads/ 
+First, you will need to have " git " install on your computer to be able to clone the repository on your computer. You will also need to have python installed. If this is not the case you can download it from here: https://www.python.org/downloads/  
 
 ## Dependencies and Installing
 
 The code is using two Python libraries: "Pandas" to analyze data and "Matplotlib" to visualize the output of the analysis 
 
-If you are completely new to these two libraries. The easiest way to get them is to download "anaconda" to be able to use "conda" command in your terminal. Here is the link: https://docs.anaconda.com/anaconda/install/index.html . Those two can also be downloaded in some other way. More information is provided on their website: https://pypi.org/project/pandas/
+If you are completely new to these two libraries. The easiest way to get them is to download "anaconda" to be able to use "conda" command in your terminal. Here is the link: https://docs.anaconda.com/anaconda/install/index.html . Those two can also be downloaded in some other way. More information is provided on their website: 
+
+https://pypi.org/project/pandas/ and  https://matplotlib.org/stable/users/installing.html
 
 If you are using anaconda, you can simply copy those code lines on your terminal.
 
