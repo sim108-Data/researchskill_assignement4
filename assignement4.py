@@ -26,7 +26,7 @@ df['day_name'] = df['starttime'].dt.day_name()
 weekdays=df.loc[~((df['day_name']=='Saturday')|(df['day_name']=='Sunday'))]
 weekend=df.loc[(df['day_name']=='Saturday')|(df['day_name']=='Sunday')]
 
-## Then we can grouped by day and hour and count how many trip we have for those hours/day [ for weekdays]
+## Then we can group by day and hour and count how many trips we have for those hours/day [ for weekdays]
 
 group_weekdays=weekdays.groupby(['day_name','hour']).count()['id_trip']
 group_weekdays=group_weekdays.unstack()
