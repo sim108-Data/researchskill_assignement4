@@ -1,4 +1,6 @@
+# Import datetime from python 
 from datetime import datetime as dt
+# Import the python libraries 
 import pandas as pd
 import matplotlib.pyplot as plt
 
@@ -7,9 +9,6 @@ import matplotlib.pyplot as plt
 
 DATA_PATH ="export_trajets.csv"
 df = pd.read_csv(DATA_PATH, delimiter = ",",header = 0)
-
-# Here we drop two columns that aren't needed
-df_=df.drop(['mode','purpose'],axis=1)
 
 # Then we modify the type of the column "starttime" and "endtime" to have it in a date format
 df[['starttime','endtime']]=df.apply(lambda x : x[['starttime','endtime']].astype('datetime64'),axis=1)
@@ -50,20 +49,21 @@ font = {'family' : 'DejaVu Sans',
 plt.rc('font', **font)
 
 # plot weekday
-
+plt.figure()
 plt.plot(group_weekdays.T)
 plt.xlabel('Hour of the Day ')
 plt.ylabel('Number of Trip ')
 plt.ylim(0,3500)
 plt.legend(group_weekdays.T.columns,bbox_to_anchor=(0.05, 0.95), loc=2, borderaxespad=0.)
-plt.savefig('week.jpg')
-plt.show()
+plt.savefig('week_traffic.jpg')
+
 
 # plot weekend
-
+plt.figure()
 plt.plot(group_weekend.T)
 plt.xlabel('Hour of the Day ')
 plt.ylabel('Number of Trip ')
 plt.ylim(0,3500)
 plt.legend(group_weekend.T.columns,bbox_to_anchor=(0.05, 0.95), loc=2, borderaxespad=0.)
-plt.savefig('weekend.jpg')
+plt.savefig('weekend_traffic.jpg')
+plt.show()
