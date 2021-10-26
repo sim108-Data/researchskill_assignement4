@@ -1,5 +1,5 @@
 # Introduction to research skills (for GC)
-## Assignement 4 
+## Assignement 4 : Visualisation of rush hours for the city of Montréal
 
 This repository contains the following files :
 * assignement4.py : the python file containing the code 
@@ -9,19 +9,20 @@ This repository contains the following files :
 
 ## Description
 
-This code helps to model the traffic congestion for the city of in Montréal for the period of September 2017 to October 2017.
-Warning : Due to the big amonth of data, the code take 5 minutes to run in order to make both graphs.
+This code helps to model the traffic congestion for the city of in Montréal for the period of September 2017 to October 2017. The output of the code shows that we have specific rushhours during the week and none during the weekend.
+Warning : Due to the big amonth of data, the code take 5-7 minutes to run in order to make both graphs.
 
 ## Getting Started
 
 First, you will need to have " git " install in your computer to be able to clone the repository in your computer. You will also need to have python install. If this is not the case you can download it from here : https://www.python.org/downloads/ 
 
-You should also download "anaconda" to get further needed librairies. https://docs.anaconda.com/anaconda/install/index.html
-
 ### Dependencies and Installing
 
-To be able to run the code you will need to have some specific librairies that can be download on putting those codelines on the terminal after downloading anaconda. 
-If you are more familiar with pip you can also use "pip install".
+The code is using two Python libraries : Pandas to analyze data and Matplotlib to visualise the output of the analysis 
+
+If you are completely new to this two libriries. The easiest way to get them is to download "anaconda" to be able to use "conda" command in your terminal. Here is the link : https://docs.anaconda.com/anaconda/install/index.html . Those two can also be download in some other way. More information are provided on their website : https://pypi.org/project/pandas/
+
+If you are using anaconda, you can simply copy those codelines on your terminal.
 
 * pandas : 
 ```
@@ -38,7 +39,7 @@ conda install matplotlib
 
 To execute the program you need to follow the step describe below:
 * clone the repository 
-* load the librairy
+* get the Python librairies
 * enter in the repository with this command (Windows) or equivalent codeline for Mac and Linux
 ```
 cd researchskill_assignement4
@@ -47,7 +48,10 @@ cd researchskill_assignement4
 ```
 python assignement4.py
 ```
-* Now two files should have been save as 'week.jpg' and 'weekend.jpg'
+* After 5-6 min, two files should have been save as 'week.jpg' and 'weekend.jpg'
+
+### Data 
+
 
 ## Help
 
