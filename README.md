@@ -16,6 +16,7 @@ The raw dataset contains about 185’000 rows, where each one represents one tri
 As the initial data are a Geolocated dataset in a shapefile. It was first needed to convert the data.
 So, we used the geographic information system ”QGIS”, which allows us to load a shapefile and export it as a CSV file ("export_trajets.csv").
 The second step was to model the traffic congestion of the city of Montreal for the period of September 2017 to October 2017. The code for this part is provided in " assignement4.py". Its output shows that we have three specific rush hours during the week and none during the weekend. It also supports the analysis with two graphs.
+
 Warning: Due to the big amount of data, the code takes 5-7 minutes to run to make both graphs.
 
 ## Getting Started
