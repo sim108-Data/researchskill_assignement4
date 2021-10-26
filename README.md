@@ -25,7 +25,7 @@ First, you will need to have " git " install on your computer to be able to clon
 
 ## Dependencies and Installing
 
-The code is using two Python libraries: Pandas to analyze data and Matplotlib to visualize the output of the analysis 
+The code is using two Python libraries: "Pandas" to analyze data and "Matplotlib" to visualize the output of the analysis 
 
 If you are completely new to these two libraries. The easiest way to get them is to download "anaconda" to be able to use "conda" command in your terminal. Here is the link: https://docs.anaconda.com/anaconda/install/index.html . Those two can also be downloaded in some other way. More information is provided on their website: https://pypi.org/project/pandas/
 
