@@ -2,7 +2,7 @@
 ## Assignment 4: Visualisation of rush hours for the city of Montréal
 
 This repository contains the following files :
-* assignement4.py: the python file containing the code 
+* assignement4.py: the python file containing the code to model the traffic congestion
 * export_trajets.csv: the CSV containing the data 
 * week.jpg and weekend.jpg: which represents the two graphs that you should get after compiling the code
 
