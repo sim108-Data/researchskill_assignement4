@@ -60,10 +60,6 @@ python assignement4.py
 * After 5-6 min, two files should have been saved as 'week.jpg' and 'weekend.jpg'
 
 
-## Help
-
-If any problem occurs you can contact me on my address email: simon.dayer@gmail.com
-
 ## Authors
 
 Simon Dayer
